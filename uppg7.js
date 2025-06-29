@@ -6,7 +6,15 @@ function uppg7() {
     // funktionen ska returnera summan av talen
     // kalla på funktionen i en return statement och ge den parametrarna 5 och 10
 
- 
+ function returTal (tal1, tal2) {
+    let sum = tal1 + tal2;
+    return sum;
 }
+
+console.log(returTal(5, 10));
+}
+
+uppg7();
+
 
 module.exports = { uppg7 };

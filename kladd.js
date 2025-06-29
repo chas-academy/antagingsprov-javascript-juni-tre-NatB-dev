@@ -1,4 +1,15 @@
 
+
+
+
+
+const person = {
+        name: "Johanna",
+        age: 23
+};
+
+console.log(person.name);
+
 function uppg4() {
   
     // deklarera ett objekt med namnet person
@@ -6,13 +17,11 @@ function uppg4() {
     // tilldela age 25
     // skriv ut med dotnotation åldern i konsolen
 
-    let person = {
-        name: "Johanna",
+    const person = {
+        name: "Donna",
         age: 25
     };
     console.log(person.age);
 }
 
 uppg4();
-
-module.exports = { uppg4 };
